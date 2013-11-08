@@ -1,9 +1,6 @@
 comp2003-project
 ================
-
 A class project
-
-
 
 
 design document
@@ -22,11 +19,13 @@ Current and potential computer science students at Prairie View A&M University.
 
 
 ###layout and design of the site
-purple bar nav across top
-purple footer
-content slide out to left and in from right
+* purple bar nav across top
+* purple footer
+* content fadein and out fast
+* mobile/narrow browser friendly content
 
 
 some notes
 ----------
 * [simple mobile browser detection](http://www.abeautifulsite.net/blog/2011/11/detecting-mobile-devices-with-javascript/) soluteion
+* Footer gradient is messed up in IE10

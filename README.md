@@ -29,4 +29,4 @@ content slide out to left and in from right
 
 some notes
 ----------
-http://stackoverflow.com/questions/11381673/javascript-solution-to-detect-mobile-browser
+* [simple mobile browser detection](http://www.abeautifulsite.net/blog/2011/11/detecting-mobile-devices-with-javascript/) soluteion

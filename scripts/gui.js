@@ -12,12 +12,19 @@ function DisplaySection(clicked) {
     $('#' + displayed).hide(0, function () {
         $('#' + clicked).fadeIn(600)
     });
+    
+    location.hash = clicked;
+    window.scrollTo(0, 0);
 }
 
 $(document).ready(function() {
     //On load hide all except main.
     $('section').hide();
-    $('#main').show();
+    if(location.hash != "") {
+        $(location.hash).show();
+    } else {
+        $('#main').show();
+    }
     
     //copyright year
     var now = new Date();

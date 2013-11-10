@@ -4,7 +4,7 @@ $(document).ready(function() {
     pages.hide().filter(':first').show();
 
     $(window).bind('hashchange', function () {
-        var hash = window.location.hash || '#main';
+        var hash = window.location.hash || '#welcome';
         pages.hide();
         pages.filter(hash).fadeIn(600);
     });
@@ -18,10 +18,8 @@ $(document).ready(function() {
     $("#directory table").tablesorter(); 
     
     //menu item click handler
-    $('.menu-item').click(function() {
-        $('.menu-item').removeClass('selected');
-        $(this).addClass('selected');
-        window.location.hash = $(this).attr('id').slice(3);
+    $('.menu-item').children('span').click(function() {
+        window.location.hash = $(this).parent().attr('id').slice(3);
     })
 
 });

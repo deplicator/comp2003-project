@@ -59,34 +59,76 @@ header img {
     margin: -40px 40px 0 0;
 }
 
+/** Navigation **/
 nav {
     background: #333;
     color: white;
     padding:5px 10px;
+    height: 20px;
 }
+
 
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
+    width: 80vw;
     padding: 0;
 }
 
-nav li {
+.menu-item {
     border-right: 1px solid;
     cursor: pointer;
     display: inline;
+    float: left;
     margin: 0;
     padding: 0 9px
 }
 
-nav li:last-child {
+.menu-item:last-child {
     border: none;
 }
 
-nav li:hover {
+.menu-item span {
+    padding: 8px;
+}
+
+.menu-item span:hover {
     color: #FFF580;
     text-decoration: none;
 }
+
+.menu-item ul {
+    display: none;
+}
+
+.menu-item:hover > .submenu {
+    display: block;
+    
+}
+
+
+.submenu {
+    background: #333;
+    position: absolute;
+    width: 189px;
+}
+
+.submenu:hover {
+    display: block;
+    
+}
+
+.submenu li {
+    border: 1px solid;
+    border-top: none;
+    display: block;
+    float: none;
+    padding: 5px 0;
+}
+
+
+
+
 
 section {
     margin: 0 auto 135px;

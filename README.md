@@ -6,7 +6,7 @@ A class project.
 Design Document
 ---------------
 ###Purpose
-Present the Computer Science department capeabilities and degree requimrents to the target audiance.
+Present the Computer Science department capabilities and degree requirements to the target audience.
 
 
 ###Target Audience
@@ -42,6 +42,6 @@ Current and potential computer science students at Prairie View A&M University.
 Notes
 -----
 * [PVAMU style guide](http://www.pvamu.edu/pages/6438.asp#webStyleGuidelines)
-* simple [mobile browser detection](http://www.abeautifulsite.net/blog/2011/11/detecting-mobile-devices-with-javascript/) soluteion
+* simple [mobile browser detection](http://www.abeautifulsite.net/blog/2011/11/detecting-mobile-devices-with-javascript/) solution
 * footer gradient is incorrect in IE10
 * with current menu, need to change at about 875px

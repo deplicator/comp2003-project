@@ -1,0 +1,21 @@
+/* 
+ * Mobile stylesheet
+ */
+
+/* Close to official PVAMU logo font */
+@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    display: none;
+}
+
+nav {
+    background: purple;
+    width: 100vw;
+}

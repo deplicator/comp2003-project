@@ -1,10 +1,15 @@
 /*
-    Default Stylesheet
+    Default Stylesheet, for non-mobile browsers.
 */
 
 /* Close to official PVAMU logo font */
 @import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
 
+/* jQuery tablesorter plugin */
+@import url(tablesorter.css);
+
+
+/** GENERAL **/
 body,
 html {
     background: #fefefe;
@@ -25,6 +30,16 @@ html {
     overflow-x: hidden;
 }
 
+.inner {
+    height: inherit;
+    margin: 0 auto;
+    max-width: 75em;
+    position: relative;
+    width: 80vw;
+}
+
+
+/** HEADER **/
 header {
     background-image: linear-gradient(bottom, rgb(153,51,204) 8%, rgb(51,0,102) 71%);
     background-image: -o-linear-gradient(bottom, rgb(153,51,204) 8%, rgb(51,0,102) 71%);
@@ -34,11 +49,6 @@ header {
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.08, rgb(153,51,204)), color-stop(0.71, rgb(51,0,102)));
     color: #ffcc33;
     margin: 0 auto;
-}
-
-header .inner {
-    margin: 0 auto;
-    width: 80vw;
 }
 
 header h1 {
@@ -56,7 +66,7 @@ header h2 {
 header img {
     float: right;
     height: 188px;
-    margin: -40px 40px 0 0;
+    margin: -40px 0 0 0;
 }
 
 header a:link,
@@ -66,6 +76,7 @@ header a:visited {
     text-decoration: none;
 }
 
+
 /** Navigation **/
 nav {
     background: #333;
@@ -74,11 +85,9 @@ nav {
     height: 20px;
 }
 
-
 nav ul {
     list-style: none;
-    margin: 0 auto;
-    width: 80vw;
+    margin: 0;
     padding: 0;
 }
 
@@ -119,6 +128,7 @@ nav ul {
     margin: 0 0 0 -10px;
     position: absolute;
     width: 189px;
+    z-index: 100;
 }
 
 .submenu:hover {
@@ -137,7 +147,6 @@ nav ul {
 section {
     margin: 0 auto 135px;
     min-width:493px;
-    width: 80vw;
 }
 
 section .breadcrumb {
@@ -163,7 +172,6 @@ section a:hover {
 #directory table th,
 #directory table td {
     border: 1px solid;
-    
 }
 
 #directory table td:nth-child(5) {
@@ -190,7 +198,7 @@ footer {
 
 footer #footer-info {
     float: left;
-    margin: 8px 0 0 5vw;
+    margin: 8px 0 0 0;
     width: 400px;
 }
 
@@ -229,5 +237,12 @@ footer #imagine {
     position: absolute;
     bottom: 10px;
     height: 55px;
-    right: 10px;
+    right: 0;
+}
+
+@media (max-width: 51.5625em) {
+    header img,
+    footer #imagine {
+        display: none;
+    }
 }

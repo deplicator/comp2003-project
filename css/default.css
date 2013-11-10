@@ -116,6 +116,7 @@ nav ul {
 
 .submenu {
     background: #333;
+    margin: 0 0 0 -10px;
     position: absolute;
     width: 189px;
 }

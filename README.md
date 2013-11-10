@@ -44,3 +44,4 @@ Notes
 * [PVAMU style guide](http://www.pvamu.edu/pages/6438.asp#webStyleGuidelines)
 * simple [mobile browser detection](http://www.abeautifulsite.net/blog/2011/11/detecting-mobile-devices-with-javascript/) soluteion
 * footer gradient is incorrect in IE10
+* with current menu, need to change at about 875px

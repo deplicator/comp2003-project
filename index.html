@@ -12,7 +12,7 @@
         <header>
             <div class="inner">
                 <h1>Computer Science Department</h1>
-                <h2>Prairie View A&M University</h2>
+                <h2><a href="http://pvamu.edu">Prairie View A&M University</a></h2>
                 <img src="images/PVAMU-Seal-grey.png" alt="PVAMU Seal" />
             </div>
             <nav>
@@ -54,11 +54,73 @@
             <p>Donec eget arcu consequat ante venenatis vestibulum in a ante. Vivamus eros nibh, egestas eget lectus nec, viverra elementum risus. Aenean mauris ipsum, tincidunt id sagittis ut, sagittis et lorem. Aliquam viverra vel nunc id sagittis. Pellentesque sit amet bibendum lorem, eget tempor metus. Mauris posuere purus eu justo congue, quis volutpat metus gravida. Vestibulum sed enim purus. Sed quis orci elementum, blandit nisl non, fermentum dui.</p>
             <p>Donec ligula leo, placerat eu lobortis euismod, venenatis eu augue. Aliquam vel bibendum nisl, et aliquam augue. Mauris non ligula enim. Ut metus lacus, gravida ut condimentum nec, pulvinar vitae velit. Etiam ultrices lacinia mattis. Donec commodo sagittis elementum. Nam non turpis sagittis, dapibus elit a, cursus ipsum.</p>
             <p>Aenean ac vestibulum ligula. Nullam dui nunc, accumsan suscipit tortor in, consectetur hendrerit erat. Duis hendrerit pretium urna in ullamcorper. In bibendum nec augue a mattis. Curabitur rutrum at ante a pellentesque. Maecenas ultricies faucibus dui, at convallis risus vestibulum consectetur. Duis egestas purus sed neque faucibus vestibulum. Nullam tincidunt egestas quam, sit amet luctus ante scelerisque vel. Suspendisse eu magna at nunc cursus mollis. Suspendisse metus elit, tincidunt vel eros et, scelerisque dictum libero. Cras volutpat, dui posuere vulputate aliquet, mi metus varius dui, ut auctor orci nisi sit amet lacus. Proin et viverra nisl. Duis malesuada molestie ipsum, vel laoreet libero elementum ut. Nullam malesuada varius mi quis fermentum.</p>
+            <p class="breadcrumb">Welcome -> [<a href="#mission">Mission</a>]</p><!--look into making this automatically-->
+        </section>
+        
+        <section id="mission">
+            <h2>Mission</h2>
+            <p class="breadcrumb"><a href="#welcome">Welcome</a> -> Mission</p>
+        </section>
+        
+        <section id="degree-information">
+            <h2>Degree Information</h2>
+            <p class="breadcrumb">
+                Degree Information -> [
+                <a href="#high-school">High School Preparation</a>,
+                <a href="#minoring">Minoring</a>,
+                <a href="#undergraduate">Undergraduate</a>, 
+                <a href="#graduate">Graduate</a>]
+            </p>
+        </section>
+        
+        <section id="high-school">
+            <h2>High School Preparation</h2>
+            <p class="breadcrumb"><a href="#degree-information">Degree Information</a> -> High School Preparation</p>
+        </section>
+        
+        <section id="minoring">
+            <h2>Minoring</h2>
+            <p class="breadcrumb"><a href="#degree-information">Degree Information</a> -> Minoring</p>
+        </section>
+        
+        <section id="undergraduate">
+            <h2>Undergraduate</h2>
+            <p class="breadcrumb"><a href="#degree-information">Degree Information</a> -> Undergraduate</p>
+        </section>
+        
+        <section id="graduate">
+            <h2>Graduate</h2>
+            <p class="breadcrumb"><a href="#degree-information">Degree Information</a> -> Graduate</p>
+        </section>
+        
+        <section id="resources">
+            <h2>Resources</h2>
+            <p class="breadcrumb">
+                Resources -> [
+                <a href="#thesis-manuals">Thesis Manuals</a>,
+                <a href="#thesis-resources">Thesis Resources</a>]
+            </p>
+        </section>
+        
+        <section id="thesis-manuals">
+            <h2>Thesis Manuals</h2>
+            <p class="breadcrumb"><a href="#resources">Resources</a> -> Thesis Manuals</p>
+        </section>
+        
+        <section id="thesis-resources">
+            <h2>Thesis Resources</h2>
+            <p class="breadcrumb"><a href="#resources">Resources</a> -> Thesis Resources</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p class="breadcrumb">
+                Contact -> [<a href="#directory">Directory</a>]
+            </p>
         </section>
         
         <section id="directory">
             <h2>Directory</h2>
-            
             <table class="tablesorter">
                 <thead>
                     <tr>
@@ -185,8 +247,7 @@
                     </tr>
                 </tbody>
             </table>
-
-
+            <p class="breadcrumb"><a href="#contact">Contact</a> -> Directory</p>
         </section>
         
         <section id="degree-plans">
@@ -202,10 +263,10 @@
     
     <footer>
         <div id="footer-info">
-            <img id="tamus" src="images/member-tamus.png" />
-            <p class="logo">Prairie View A&M University</p>
-            <p>&copy; PVAMU <a href="#" title="Click to Contact">CS Department</a> <span id="copyright-year"></span></p>
-            <p>Source Available under <a href="LICENSE.TXT">MIT License</a> at <a href="#">github.com</a></p>
+            <a href="http://www.tamus.edu/"><img id="tamus" src="images/member-tamus.png" /></a>
+            <p class="logo"><a href="http://pvamu.edu">Prairie View A&M University</a></p>
+            <p>&copy; PVAMU <a href="#contact" title="Click to Contact">CS Department</a> <span id="copyright-year"></span></p>
+            <p>Source Available under <a href="LICENSE.TXT">MIT License</a> at <a href="https://github.com/deplicator/comp2003-project">github.com</a></p>
         </div>
         <img id="imagine" src="images/imagine-yourself-here-White.png" />
     </footer>

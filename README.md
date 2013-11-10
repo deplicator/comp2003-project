@@ -14,6 +14,18 @@ Current and potential computer science students at Prairie View A&M University.
 
 
 ###Organizational Structure
+* Main/Welcome
+** Department Mission
+* Degree Information
+** High School Preparation
+** Undergraduate
+** Minoring
+** Graduate
+* Resources
+** Thesis Manuals
+** Thesis Resource Links
+* Contact
+** Directory
 
 
 ###Multimedia Elements

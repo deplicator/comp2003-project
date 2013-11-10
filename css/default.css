@@ -63,7 +63,7 @@ header h2 {
     text-shadow: 3px 2px 4px #960;
 }
 
-header img {
+header #seal {
     float: right;
     height: 188px;
     margin: -40px 0 0 0;
@@ -241,7 +241,7 @@ footer #imagine {
 }
 
 @media (max-width: 51.5625em) {
-    header img,
+    header #seal,
     footer #imagine {
         display: none;
     }

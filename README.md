@@ -42,15 +42,15 @@ Current and potential computer science students at Prairie View A&M University.
 Layout Diagram
 --------------
 
-| top  | 1st         | submenu   |
-| ---- |-------------| ------|
-| Menu | welcome     | mission |
-|      | Degree info | high school prep |
-|      |             | minoring |
-|      |             | undergrad |
-|      |             | grad |
-|      | Resources   | thesis manuals |
-|      |             | thesis links |
+| menu        | submenu   |
+|-------------| ----------|
+| welcome     | mission |
+| Degree info | high school prep |
+|             | minoring |
+|             | undergrad |
+|             | grad |
+| Resources   | thesis manuals |
+|             | thesis links |
 
 Notes
 -----

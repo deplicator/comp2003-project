@@ -24,6 +24,7 @@ html {
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;
+    z-index: 0;
 }
 
 .inner {
@@ -32,6 +33,10 @@ html {
     max-width: 75em;
     position: relative;
     width: 98vw;
+}
+
+#browser-message {
+    display: none;
 }
 
 
@@ -93,10 +98,13 @@ nav ul {
 }
 
 .menu-item {
-    border-right: 1px solid;
+    background: #333;
+    border-bottom: 1px solid;
+    clear: both;
     cursor: pointer;
-    display: inline;
+    display: block;
     float: left;
+    font-size: 3em;
     margin: 0;
     padding: 0 9px
 }
@@ -123,12 +131,10 @@ nav ul {
     
 }
 
-
 .submenu {
     background: #333;
-    margin: 0 0 0 -10px;
-    position: absolute;
-    width: 189px;
+    font-size: 0.33em;
+    margin: 0;
     z-index: 100;
 }
 
@@ -138,8 +144,7 @@ nav ul {
 }
 
 .submenu li {
-    border: 1px solid;
-    border-top: none;
+    border-bottom: 1px solid;
     display: block;
     float: none;
     padding: 5px 0;
@@ -148,6 +153,7 @@ nav ul {
 section {
     margin: 0 auto 135px;
     min-width:493px;
+    z-index: -100;
 }
 
 section .breadcrumb {

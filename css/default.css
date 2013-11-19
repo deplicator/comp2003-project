@@ -38,6 +38,10 @@ html {
     width: 80vw;
 }
 
+#browser-message {
+    display: none;
+}
+
 
 /** HEADER **/
 header {
@@ -80,7 +84,7 @@ header a:visited {
 /** Navigation **/
 nav {
     background: #333;
-    color: white;
+    color: #FEFEFE;
     padding:5px 10px;
     height: 20px;
 }
@@ -92,6 +96,7 @@ nav ul {
 }
 
 .menu-item {
+    background: #333;
     border-right: 1px solid;
     cursor: pointer;
     display: inline;
@@ -121,7 +126,6 @@ nav ul {
     display: block;
     
 }
-
 
 .submenu {
     background: #333;

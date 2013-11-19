@@ -39,6 +39,19 @@ Current and potential computer science students at Prairie View A&M University.
 * Mobile browser friendly.
 
 
+Layout Diagram
+--------------
+
+| menu        | submenu   |
+|-------------| ----------|
+| welcome     | mission |
+| Degree info | high school prep |
+|             | minoring |
+|             | undergrad |
+|             | grad |
+| Resources   | thesis manuals |
+|             | thesis links |
+
 Notes
 -----
 * [PVAMU style guide](http://www.pvamu.edu/pages/6438.asp#webStyleGuidelines)

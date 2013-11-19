@@ -2,11 +2,17 @@
     Default Stylesheet, for non-mobile browsers.
 */
 
-/* Close to official PVAMU logo font */
-@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
-
 /* jQuery tablesorter plugin */
 @import url(tablesorter.css);
+
+
+/* Close to official PVAMU logo font */
+@font-face {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Podkova'), local('Podkova-Regular'), url(fonts/podkova.woff) format('woff');
+}
 
 
 /** GENERAL **/
@@ -131,7 +137,7 @@ nav ul {
     background: #333;
     margin: 0 0 0 -10px;
     position: absolute;
-    width: 189px;
+    width: 200px;
     z-index: 100;
 }
 
@@ -145,7 +151,7 @@ nav ul {
     border-top: none;
     display: block;
     float: none;
-    padding: 5px 0;
+    padding: .1em 0 5px 0.5em;
 }
 
 section {
@@ -155,7 +161,7 @@ section {
 
 section .breadcrumb {
     font-family: monospace;
-    margin: 1em 0 0 0;
+    margin: 5em 0 0 0;
 }
 
 section a:link {

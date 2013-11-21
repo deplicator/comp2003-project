@@ -61,9 +61,14 @@ Current and potential computer science students at Prairie View A&M University.
 Deviations from Official Requirements
 -------------------------------------
 This project does not meet the strict eight page requirement because there is only a signle html file. We used hash
-navigation and jQuery to create a multiple page effect. This allows us to have pretty transitions between pages. 
-Extra care has been taken to allow for the use of bookmarks and the browser's back button.
+navigation and jQuery to create a multiple page effect. This allows for pretty transitions between pages because 
+that is important. Extra care has been taken to allow for the use of bookmarks and the browser's back button.
 
+We opted for a search engine friendly text/css logo over an image. It makes use of the free 
+[Google Web Fonts](http://www.google.com/fonts), and the font has been localized.
+
+Finally, because it was our intent to make a product so great the department would consider it as a replacement 
+for the official Computer Science department website*, we did not include a sound of video file.
 
 
 Notes
@@ -71,3 +76,7 @@ Notes
 * [PVAMU style guide](http://www.pvamu.edu/pages/6438.asp#webStyleGuidelines)
 * simple [mobile browser detection](http://www.abeautifulsite.net/blog/2011/11/detecting-mobile-devices-with-javascript/) solution
 
+
+ *This project as it is on the due date, Friday November 22, 2013, is not a valid drop in replacement for the school's
+ Computer Science website. Although, it could be a foundation for a new site maintained by Computer Science students.
+ 

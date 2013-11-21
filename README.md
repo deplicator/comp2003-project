@@ -38,11 +38,11 @@ Current and potential computer science students at Prairie View A&M University.
 
 
 ###Layout and Design
-* Responsive
-* Adhere to the [PVAMU Web Styling Guide](http://www.pvamu.edu/pages/6438.asp) (for the most part).
-* Mobile browser friendly version of CSS.
-* Made with [Notepad++](http://notepad-plus-plus.org/)
-* Libraries
+* Uses a responsive design.
+* Adheres to the [PVAMU Web Styling Guide](http://www.pvamu.edu/pages/6438.asp).
+* Mobile browser friendly version of CSS (mobile browser detected with javascript).
+* Made with [Notepad++](http://notepad-plus-plus.org/).
+* Libraries used:
    * [jQuery 1.10.2](http://jquery.com/)
    * jQuery Plugin: [Tablesorter 2.0](http://tablesorter.com/docs/)
 
@@ -75,12 +75,6 @@ for the official Computer Science department website*, we did not include a soun
 appropriate for the project.
 
 
-Notes
------
-* [PVAMU style guide](http://www.pvamu.edu/pages/6438.asp#webStyleGuidelines)
-* simple [mobile browser detection](http://www.abeautifulsite.net/blog/2011/11/detecting-mobile-devices-with-javascript/) solution
-
-
- *This project as it is on the due date, Friday November 22, 2013, is not a valid drop in replacement for the school's
+ *As it is on the due date, Friday November 22, 2013, this project is not a valid drop in replacement for the school's
  Computer Science website. Although, it could be a foundation for a new site maintained by Computer Science students.
  

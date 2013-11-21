@@ -190,11 +190,11 @@ section a:hover {
 
 /** FOOTER **/
 footer {
-    background-image: linear-gradient(bottom, rgb(153,51,204) 100%, rgb(51,0,102) 25%);
+    background-image: linear-gradient(to top, #330066 25%, #9933CC 100%);
     background-image: -o-linear-gradient(bottom, rgb(153,51,204) 100%, rgb(51,0,102) 25%);
     background-image: -moz-linear-gradient(bottom, rgb(153,51,204) 100%, rgb(51,0,102) 25%);
-    background-image: -webkit-linear-gradient(bottom, rgb(153,51,204) 100%, rgb(51,0,102) 25%);
-    background-image: -ms-linear-gradient(bottom, rgb(153,51,204) 100%, rgb(51,0,102) 25%);
+    background-image: -webkit-linear-gradient(bottom, #306 25%, #93c 200%)
+    background-image: -ms-linear-gradient(bottom, rgb(51, 0, 102) 25%, rgb(153, 51, 204) 100%)
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(1, rgb(153,51,204)), color-stop(0.25, rgb(51,0,102)));
     clear: both;
     color: #fefefe;

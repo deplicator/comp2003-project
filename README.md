@@ -68,7 +68,8 @@ We opted for a search engine friendly text/css logo over an image. It makes use 
 [Google Web Fonts](http://www.google.com/fonts), and the font has been localized.
 
 Finally, because it was our intent to make a product so great the department would consider it as a replacement 
-for the official Computer Science department website*, we did not include a sound of video file.
+for the official Computer Science department website*, we did not include a sound or video file. None seemed
+appropriate for the project.
 
 
 Notes

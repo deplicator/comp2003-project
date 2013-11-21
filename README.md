@@ -41,7 +41,10 @@ Current and potential computer science students at Prairie View A&M University.
 * Responsive
 * Adhere to the [PVAMU Web Styling Guide](http://www.pvamu.edu/pages/6438.asp) (for the most part).
 * Mobile browser friendly version of CSS.
-
+* Made with [Notepad++](http://notepad-plus-plus.org/)
+* Libraries
+   * [jQuery 1.10.2](http://jquery.com/)
+   * jQuery Plugin: [Tablesorter 2.0](http://tablesorter.com/docs/)
 
 ####Layout Diagram
 

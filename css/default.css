@@ -196,6 +196,16 @@ section a:hover {
     white-space: nowrap;
 }
 
+form {
+    width: 50vw;
+    margin: 0 0 1em 0; 
+}
+
+form label {
+    float: left;
+    width: 5em;
+}
+
 /** FOOTER **/
 footer {
     background-image: linear-gradient(to top, #330066 25%, #9933CC 100%);

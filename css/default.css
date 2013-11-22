@@ -206,6 +206,10 @@ form label {
     width: 5em;
 }
 
+form input[type="submit"] {
+    float: right;
+}
+
 /** FOOTER **/
 footer {
     background-image: linear-gradient(to top, #330066 25%, #9933CC 100%);

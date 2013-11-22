@@ -265,7 +265,8 @@ footer #tamus {
     margin: 0 10px 0 0;
 }
 
-footer #imagine {
+footer #imagine,
+footer #easter-egg {
     position: absolute;
     bottom: 10px;
     height: 55px;

@@ -47,6 +47,16 @@ $(document).ready(function() {
         window.location.hash = $(this).parent().attr('id').slice(3);
     })
     
+    //Imagine yourself here easter egg
+    $('#imagine').click(function() {
+        $('#imagine').hide();
+        $('#easter-egg').show();
+        var randomsong = Math.floor(Math.random() * 6) + 1;
+        $('#easter-egg').attr("src", "downloads/song" + randomsong + ".mp3");
+        $('#easter-egg')[0].volume = 0.5;
+        $('#easter-egg')[0].play();
+    });
+    
     if(isMobile.any()) {
         $('#non-mobile').remove();
         $('head').append('<link rel="stylesheet" href="css/mobile.css" />');

@@ -29,6 +29,10 @@ $(document).ready(function() {
         var hash = window.location.hash || '#welcome';
         pages.hide();
         pages.filter(hash).fadeIn(600);
+        
+        //changes random-img class images on each page refresh.
+        var rimg = Math.floor(Math.random()*15) + 1;
+        pages.filter(hash).children('.random-img').attr("src", "images/random/" + rimg + ".jpg");
     });
     $(window).trigger('hashchange');
     

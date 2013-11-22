@@ -11,7 +11,7 @@
   font-family: 'Podkova';
   font-style: normal;
   font-weight: 400;
-  src: local('Podkova'), local('Podkova-Regular'), url(fonts/podkova.woff) format('woff');
+  src: local('Podkova'), local('Podkova-Regular'), url(../fonts/podkova.woff) format('woff');
 }
 
 
@@ -48,6 +48,14 @@ html {
     display: none;
 }
 
+
+/** Random images **/
+.random-img {
+    border: 1px solid #ccc;
+    height: 240px;
+    padding: 6px;
+    width: 320px;
+}
 
 /** HEADER **/
 header {

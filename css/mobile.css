@@ -3,7 +3,12 @@
  */
 
 /* Close to official PVAMU logo font */
-@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
+@font-face {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Podkova'), local('Podkova-Regular'), url(../fonts/podkova.woff) format('woff');
+}
 
 /** GENERAL **/
 body,
